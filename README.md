@@ -46,7 +46,7 @@ python train.py --net-type unet --cuda --resume --last-ckpt-path <the saved ckpt
 ```
 4. test the model and save HDR images:
 ```bash
-python test_psnr.py --net-type unet --model-path <the saved ckpt path> --cuda --save-image
+python eval_metric.py --net-type unet --model-path <the saved ckpt path> --cuda --save-image
 ```
 
 ## Pre-trained Models
