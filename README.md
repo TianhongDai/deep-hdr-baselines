@@ -2,8 +2,7 @@
 This repository is the pytorch implementation of various High Dynamic Range (HDR) Imaging algorithms. Please find the details below.
 
 ## Maintenance and Contributors
-[@TianhongDai](https://github.com/TianhongDai)  
-[@WeiLi-THU](https://github.com/WeiLi-THU)
+[@TianhongDai](https://github.com/TianhongDai) and [@WeiLi-THU](https://github.com/WeiLi-THU)
 
 ## Requirements
 - pytorch==1.4.0
@@ -21,7 +20,7 @@ This repository is the pytorch implementation of various High Dynamic Range (HDR
 - [x] DAHDR [4]
 
 ## Instruction
-1. download the Kalantari dataset via: [link](https://cseweb.ucsd.edu/~viscomp/projects/SIG17HDR/), and organize the dataset as follows:
+1. download the Kalantari dataset via: [[link]](https://cseweb.ucsd.edu/~viscomp/projects/SIG17HDR/), and organize the dataset as follows:
 ```
 dataset
 │
@@ -51,7 +50,7 @@ python test_psnr.py --net-type unet --model-path <the saved ckpt path> --cuda --
 ```
 
 ## Pre-trained Models
-
+The pre-trained models can be downloaded from the [released page](https://github.com/TianhongDai/deep-hdr-baselines/releases/tag/v1.0.0).
 
 ## Performance
 |            | DeepHDR[1] | NHDRRNet[2] | AHDR[3] | DAHDR[4] |
