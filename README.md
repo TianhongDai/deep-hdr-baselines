@@ -63,7 +63,7 @@ The pre-trained models can be downloaded from the [released page](https://github
 ## Acknowledgements
 [@elliottwu](https://github.com/elliottwu) for [DeepHDR](https://github.com/elliottwu/DeepHDR)   
 [@qingsenyangit](https://github.com/qingsenyangit) for [AHDRNet](https://github.com/qingsenyangit/AHDRNet)   
-[@Galaxies99](https://github.com/Galaxies99) for [NHDRRNet detials](https://github.com/Galaxies99/NHDRRNet-pytorch)
+[@Galaxies99](https://github.com/Galaxies99) for [NHDRRNet details](https://github.com/Galaxies99/NHDRRNet-pytorch)
 
 ## References
 [1] [Deep High Dynamic Range Imaging with Large Foreground Motions](https://arxiv.org/abs/1711.08937)  
